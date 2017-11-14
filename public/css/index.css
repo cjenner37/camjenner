@@ -1,0 +1,31 @@
+body {
+	margin: 0;
+}
+
+.hero {
+	height: 470px;
+	overflow: hidden;
+	position: relative;
+}
+
+.hero img {
+	width: 100%;
+	margin-top: -14%;
+}
+
+#title-wrapper {
+	position: absolute;
+	top: 30px;
+	left: 200px;
+	font-family: helvetica;
+	color: lightgrey;
+	text-shadow: 1px 1px 2px black;
+}
+
+#name	{
+	font-size: 50px;
+}
+
+#title {
+	font-size: 26px;
+}
