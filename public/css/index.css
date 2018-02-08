@@ -124,6 +124,24 @@ a:hover {
 
 }
 
+.body-container {
+	height: 100%;
+	width: 100%;
+}
+
+.about-container {
+	max-width: 600px;
+	margin: 0 auto;
+	background-color: #edeeef;
+	padding: 1em;
+	height: 100%;
+}
+
+.about-block {
+	margin: 40px;
+}
+
+
 @media all and (max-width: 730px) and 
  (min-width: 501px) {
 	#title-wrapper {
