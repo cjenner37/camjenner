@@ -142,42 +142,52 @@ a:hover {
 	margin: 40px;
 }
 
-/*CARDS*/
+/*---------------------CARDS-----------------------*/
 
 #projects {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
 	background-color: #edeeef;
+	padding: 40px;
 }
 
 .card-image img {
-	width: 300px;
-	height: 300px;
+	width: 270px;
+	height: auto;
 	border-bottom: 1px solid grey;
 }
 
 .project-card {
-	max-width: 300px;
-	max-height: 450px;
+	width: 270px;
+	height: auto;
 	border: 1px solid lightgrey;
 	border-radius: 4px;
 	background-color: white;
-	margin: 40px;
+	margin: 30px;
 	text-align: center;
 	overflow: hidden;
 }
 
-.project-card h3 {
-	text-decoration: none;
-
+.card-text {
+	margin: 20px;
 }
+
+
 
 @media all and (max-width: 730px) and 
  (min-width: 501px) {
 	#title-wrapper {
 		flex-direction: column-reverse;
 		bottom: 15px;
+	}
+
+	#projects {
+		padding: none;
+	}
+
+	.project-card {
+		margin: none;
 	}
 }
 
@@ -189,5 +199,13 @@ a:hover {
 	#title-wrapper {
 		flex-direction: column-reverse;
 		bottom: 15px;
+	}
+
+	#projects {
+		padding: none;
+	}
+
+	.project-card {
+		margin: none;
 	}
 }
